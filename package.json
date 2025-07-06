@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npx webpack serve --open --config ./config/webpack.dev.js",
     "build": "npx webpack --config ./config/webpack.prod.js",
-    "test:unit": "jest --config ./config/jest.config.js ",
+    "test:unit": "jest",
     "test:tsc": "tsc --no-emit"
   },
   "dependencies": {
